@@ -5,3 +5,7 @@ A multilevel ensemble convolutional neural network model has been developed for 
 
 ### The provided code which uses an ensemble of VGG16 and ResNet50 has currently been able to provide the highest accuracy of 89.6% in Cancer histology image classification on the BACH dataset. This places the research amongst the top 5 accuracies in the world
 
+## Requirements
+1. Download the Dataset after applying to the BACH Grand challenge, after whgich, the dataset would be made available to you. Apply here--> https://iciar2018-challenge.grand-challenge.org/
+2. Enable the TPU in Colab so as to make use of the tensor processing unit provided by Colab to reduce the training time of the ensemble model.  
+
